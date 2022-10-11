@@ -1,0 +1,159 @@
+.wrapper-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 160px;
+    height: 600px;
+    margin: 5px;
+    border: 1px solid gray;
+}
+.boxes {
+    border: 1px solid gray;
+    border-top: none;
+    margin: 1px;
+}
+.card-x {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    width: 160px;
+    height: 20px;
+}
+.item1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0;
+    width: 160px;
+    height: 240px;
+}
+.item2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0;
+    width: 160px;
+    height: 130px;
+}
+.item3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0;
+    width: 160px;
+    height: 80px;
+}
+#item4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0;
+    width: 160px;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+.item-logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 1px;
+    width: 160px;
+    height: 50px;
+    color: dimgray;
+}
+.product-photo {
+    display: flex;
+    width: 150px;
+    height: auto;
+    margin-bottom: 2px;
+}
+.x-sign {
+    display: flex;
+    width: 10px;
+    height: auto;
+    margin-right: 2px;
+}
+.logo {
+    display: flex;
+    width: 140px;
+    height: auto;
+}
+.fetched-name {
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+}
+.fetched-price {
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 550;
+    display: inline-block;
+    font-size: 16px;
+}
+.slider-container {
+    position: absolute;
+    width: 480px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    animation: slider 15s infinite;
+}
+.slide {
+    position: relative;
+    width: 160px;
+    height: auto;
+    float: left;
+    overflow: hidden;
+}
+#item1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.img-slider {
+    position: relative;
+    display: block;
+    height: 460px;
+    overflow: hidden;
+}
+@keyframes slider {
+    0%, 25%, 100%{left: 0}
+    30%, 55%{left: -100%}
+    60%, 85%{left: -200%}
+}
